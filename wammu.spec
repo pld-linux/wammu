@@ -18,6 +18,8 @@ BuildRequires:  rpmbuild(macros) >= 1.219
 Requires:       gammu
 Requires:	python-wxPython
 Requires:       python-gammu >= 0.20
+Requires:	obextool
+Requires:	obexfs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
