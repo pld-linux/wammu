@@ -17,6 +17,7 @@ BuildRequires:  rpmbuild(macros) >= 1.219
 %pyrequires_eq  python
 Requires:       gammu
 Requires:	python-wxPython
+Requires:       python-gammu >= 0.20
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
