@@ -40,6 +40,22 @@ made by Gammu library. Currently supported features:
 * export messages to mail (IMAP4, maildir and mailbox storages)
 * searching for phone
 
+%description -l pl.UTF-8
+Wammu to zarządca telefonów komórkowych działający pod Linuksem,
+Windows i być może na innych platformach, na których działa Gammu i
+wxPython. Komunikacja jest wykonywana przez bibliotekę Gammu.
+Aktualnie dostępne możliwości:
+- pełna obsługa kontaktów, listy zadań, kalendarza
+- odczyt przeczytanych/utworzonych/zapisanych/wysłanych/zachowanych
+  SMS-ów
+- przesyłanie plików do telefonu (tylko OBEX i telefony Sony Ericsson)
+- narzędzie do tworzenia wieloczęściowych SMS-ów
+- wyświetlanie komunikatów wraz z obrazkami i dzwonkami
+- obsługa kopii bezpieczeństwa i importu z różnych formatów
+  (vCard, vCalendar, vTodo, iCalendar, własny format kopii Gammu...)
+- eksport wiadomości do e-maili (IMAP4, maildir i mailbox)
+- szukanie telefonów
+
 %prep
 %setup -q
 
