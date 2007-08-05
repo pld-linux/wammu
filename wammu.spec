@@ -4,7 +4,7 @@ Name:		wammu
 Version:	0.21
 Release:	1
 License:	GPL v2
-Group:		Applications
+Group:		Applications/Communications
 Source0:	http://dl.cihar.com/wammu/latest/%{name}-%{version}.tar.bz2
 # Source0-md5:	6bd3fa7e8842a3713d9534ccb1a5d777
 URL:		http://wammu.eu/
@@ -30,14 +30,14 @@ Wammu is mobile phone manager running on Linux, Windows and possibly
 other platforms, where Gammu and wxPython works. The communication is
 made by Gammu library. Currently supported features:
 
-* complete support for contacts,todo,calendar
-* can read/create/save/send/backup smses
+* complete support for contacts, todo, calendar
+* can read/create/save/send/backup SMSes
 * sending files to phone (OBEX and Sony Ericsson phones only)
-* sms composer for multi part smses
+* SMS composer for multi part SMSes
 * display message including pictures and ringtones playback
-* support for backup and import in various formats 
-	(vCard, vCalendar, vTodo, iCalendar, gammu own backup,...)
-* export messages to mail (IMAP4, maildir and mailbox storages )
+* support for backup and import in various formats
+	(vCard, vCalendar, vTodo, iCalendar, gammu own backup, ...)
+* export messages to mail (IMAP4, maildir and mailbox storages)
 * searching for phone
 
 %prep
