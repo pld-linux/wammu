@@ -65,8 +65,8 @@ Aktualnie dostępne możliwości:
 %install
 rm -rf $RPM_BUILD_ROOT
 %{__python} setup.py install \
-        --optimize=2 \
-        --root=$RPM_BUILD_ROOT
+	--optimize=2 \
+	--root=$RPM_BUILD_ROOT
 
 %find_lang %{name}
 
