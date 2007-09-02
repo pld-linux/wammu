@@ -1,3 +1,6 @@
+# NOTE:
+# Wammu must be build with python-gammu rebuild against current gammu-devel
+
 Summary:	Wammu - Gammu GUI - Mobile phone manager
 Summary(pl.UTF-8):	Wammu - interfejs graficzny dla Gammu
 Name:		wammu
