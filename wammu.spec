@@ -25,6 +25,7 @@ Requires:	obextool
 Requires:	python-gammu >= 0.20
 Requires:	python-wxPython
 Suggests:	bluez-gnome
+Suggests:	python-pybluez
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
