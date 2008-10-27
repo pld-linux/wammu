@@ -4,12 +4,12 @@
 Summary:	Wammu - Gammu GUI - Mobile phone manager
 Summary(pl.UTF-8):	Wammu - interfejs graficzny dla Gammu
 Name:		wammu
-Version:	0.27
-Release:	3
+Version:	0.29
+Release:	1
 License:	GPL v2
 Group:		Applications/Communications
 Source0:	http://dl.cihar.com/wammu/latest/%{name}-%{version}.tar.bz2
-# Source0-md5:	2d1761b34ff2af56d149319b59a37905
+# Source0-md5:	a0dbda9ec5f851920ae83c7f303b12a1
 URL:		http://wammu.eu/
 BuildRequires:	gammu-devel >= 1:1.11.91
 BuildRequires:	pkgconfig >= 1:0.21-2
