@@ -18,7 +18,7 @@ BuildRequires:	python-gammu >= 0.24
 BuildRequires:	python-wxPython
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
-%pyrequires_eq	python
+%pyrequires_eq	python = %py_ver
 Requires:	gammu
 Requires:	obexfs
 Requires:	obextool
