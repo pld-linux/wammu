@@ -4,18 +4,19 @@
 Summary:	Wammu - Gammu GUI - Mobile phone manager
 Summary(pl.UTF-8):	Wammu - interfejs graficzny dla Gammu
 Name:		wammu
-Version:	0.29
-Release:	2
+Version:	0.30.1
+Release:	1
 License:	GPL v2
 Group:		Applications/Communications
 Source0:	http://dl.cihar.com/wammu/latest/%{name}-%{version}.tar.bz2
-# Source0-md5:	a0dbda9ec5f851920ae83c7f303b12a1
+# Source0-md5:	adb6ba4974204f7075f4dc423615ded0
 URL:		http://wammu.eu/
 BuildRequires:	gammu-devel >= 1:1.11.91
 BuildRequires:	pkgconfig >= 1:0.21-2
 BuildRequires:	python-devel >= 1:2.5
+BuildRequires:	python-devel >= 1:%py_ver
 BuildRequires:	python-gammu >= 0.24
-BuildRequires:	python-wxPython
+BuildRequires:	python-wxPython >= 2.5
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 %pyrequires_eq	python = %py_ver
