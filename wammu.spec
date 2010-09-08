@@ -4,16 +4,15 @@
 Summary:	Wammu - Gammu GUI - Mobile phone manager
 Summary(pl.UTF-8):	Wammu - interfejs graficzny dla Gammu
 Name:		wammu
-Version:	0.33
-Release:	4
-License:	GPL v2
+Version:	0.34
+Release:	1
+License:	GPL v2+
 Group:		Applications/Communications
 Source0:	http://dl.cihar.com/wammu/latest/%{name}-%{version}.tar.bz2
-# Source0-md5:	c28553d12ea90df5c04e23a6bb0b816c
+# Source0-md5:	d5bdcd82379ef04c53258d8c25c1cf31
 URL:		http://wammu.eu/
 BuildRequires:	gammu-devel >= 1:1.11.91
 BuildRequires:	pkgconfig >= 1:0.21-2
-BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	python-devel >= 1:%py_ver
 BuildRequires:	python-gammu >= 0.24
 BuildRequires:	python-wxPython >= 2.5
@@ -26,7 +25,7 @@ Requires:	obextool
 Requires:	python-gammu >= 0.24
 Requires:	python-wxPython
 #Suggests:	bluez-gnome  # gnome-bluetooth ?
-#Suggests:	python-pybluez # 
+#Suggests:	python-pybluez #
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -56,8 +55,8 @@ Aktualnie dostępne możliwości:
 - przesyłanie plików do telefonu (tylko OBEX i telefony Sony Ericsson)
 - narzędzie do tworzenia wieloczęściowych SMS-ów
 - wyświetlanie komunikatów wraz z obrazkami i dzwonkami
-- obsługa kopii bezpieczeństwa i importu z różnych formatów
-  (vCard, vCalendar, vTodo, iCalendar, własny format kopii Gammu...)
+- obsługa kopii bezpieczeństwa i importu z różnych formatów (vCard,
+  vCalendar, vTodo, iCalendar, własny format kopii Gammu...)
 - eksport wiadomości do e-maili (IMAP4, maildir i mailbox)
 - szukanie telefonów
 
