@@ -4,12 +4,12 @@
 Summary:	Wammu - Gammu GUI - Mobile phone manager
 Summary(pl.UTF-8):	Wammu - interfejs graficzny dla Gammu
 Name:		wammu
-Version:	0.34
+Version:	0.35
 Release:	1
 License:	GPL v2+
 Group:		Applications/Communications
 Source0:	http://dl.cihar.com/wammu/latest/%{name}-%{version}.tar.bz2
-# Source0-md5:	d5bdcd82379ef04c53258d8c25c1cf31
+# Source0-md5:	3d0bdf912c6bf383e657b130f5634179
 URL:		http://wammu.eu/
 BuildRequires:	gammu-devel >= 1:1.11.91
 BuildRequires:	pkgconfig >= 1:0.21-2
@@ -34,15 +34,15 @@ Wammu is mobile phone manager running on Linux, Windows and possibly
 other platforms, where Gammu and wxPython works. The communication is
 made by Gammu library. Currently supported features:
 
-* complete support for contacts, todo, calendar
-* can read/create/save/send/backup SMSes
-* sending files to phone (OBEX and Sony Ericsson phones only)
-* SMS composer for multi part SMSes
-* display message including pictures and ringtones playback
-* support for backup and import in various formats
-	(vCard, vCalendar, vTodo, iCalendar, gammu own backup, ...)
-* export messages to mail (IMAP4, maildir and mailbox storages)
-* searching for phone
+- complete support for contacts, todo, calendar
+- can read/create/save/send/backup SMSes
+- sending files to phone (OBEX and Sony Ericsson phones only)
+- SMS composer for multi part SMSes
+- display message including pictures and ringtones playback
+- support for backup and import in various formats (vCard, vCalendar,
+  vTodo, iCalendar, gammu own backup, ...)
+- export messages to mail (IMAP4, maildir and mailbox storages)
+- searching for phone
 
 %description -l pl.UTF-8
 Wammu to zarządca telefonów komórkowych działający pod Linuksem,
@@ -86,6 +86,12 @@ rm -rf $RPM_BUILD_ROOT
 %{py_sitescriptdir}/Wammu/*
 %{py_sitescriptdir}/*.egg-info
 %{_mandir}/man1/%{name}*.*
+%lang(cs) %{_mandir}/cs/man1/%{name}*.*
+%lang(de) %{_mandir}/de/man1/%{name}*.*
+%lang(it) %{_mandir}/it/man1/%{name}*.*
+%lang(nl) %{_mandir}/nl/man1/%{name}*.*
+%lang(ru) %{_mandir}/ru/man1/%{name}*.*
+%lang(sk) %{_mandir}/sk/man1/%{name}*.*
 %dir %{_datadir}/Wammu
 %{_datadir}/Wammu/*
 %{_desktopdir}/%{name}.desktop
