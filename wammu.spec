@@ -4,12 +4,12 @@
 Summary:	Wammu - Gammu GUI - Mobile phone manager
 Summary(pl.UTF-8):	Wammu - interfejs graficzny dla Gammu
 Name:		wammu
-Version:	0.35
+Version:	0.36
 Release:	1
 License:	GPL v2+
 Group:		Applications/Communications
 Source0:	http://dl.cihar.com/wammu/latest/%{name}-%{version}.tar.bz2
-# Source0-md5:	3d0bdf912c6bf383e657b130f5634179
+# Source0-md5:	065186e6d08bffd7f95ae000046904cb
 URL:		http://wammu.eu/
 BuildRequires:	gammu-devel >= 1:1.11.91
 BuildRequires:	pkgconfig >= 1:0.21-2
@@ -88,8 +88,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/%{name}*.*
 %lang(cs) %{_mandir}/cs/man1/%{name}*.*
 %lang(de) %{_mandir}/de/man1/%{name}*.*
+%lang(es) %{_mandir}/es/man1/%{name}*.*
+%lang(fr) %{_mandir}/fr/man1/%{name}*.*
 %lang(it) %{_mandir}/it/man1/%{name}*.*
 %lang(nl) %{_mandir}/nl/man1/%{name}*.*
+%lang(pt_BR) %{_mandir}/pt_BR/man1/%{name}*.*
 %lang(ru) %{_mandir}/ru/man1/%{name}*.*
 %lang(sk) %{_mandir}/sk/man1/%{name}*.*
 %dir %{_datadir}/Wammu
